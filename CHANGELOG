@@ -1,0 +1,6 @@
+### CHANGELOG ###
+
+## 2009-11-21 ##
+# Version : 0.2.7c
+- Compatibility with Asterisk 1.6
+- Change sounds format to .gsm

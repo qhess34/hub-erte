@@ -1,0 +1,27 @@
+This sounds have been created with Espeak and Virginie voice (http://espeak.sourceforge.net/).
+
+If you want to create sounds for a new language, you can create a new folder with this tree :
+
+[LANG NAME]/hobbit/alerts : Alerts name (cpu, disk, http ...)
+[LANG NAME]/hobbit/hostnames : Xymon Hostnames
+[LANG NAME]/hobbit/status : is_[Xymon Color (red, green, purple ...)]
+
+[LANG NAME]/menu/ : Elements of interactive voice menu, each file is important for a good work :
+type_star => press a star key
+type_sharp => press a sharp key
+type_[0-9] => press a numeric key
+to_repeat => "To repeat"
+to_leave => "To exit"
+to_* => Actions list
+the_service => "The service"
+of_server => "of server"
+is_recovered => "is recovered"
+process_* => Words said when actions have been did
+home => First message
+home_escalade => First message when there is an escalation
+goodbye => "good bye"
+
+
+
+
+

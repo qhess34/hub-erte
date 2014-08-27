@@ -1,0 +1,90 @@
+<?php
+# Config.php
+#
+# Copyright 2009 Quentin Hess
+#
+#    This file is part of Hub'erte.
+#
+#    Hub'erte is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    Hub'erte is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with Hub'erte.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+$Config['Huberte_user'] = 'HUBERTE_USER';
+/* MySQL Configuration */
+// MySQL Hostname
+$Config['MySQL_Host'] = 'MYSQL_HOST' ;
+
+// MySQL User
+$Config['MySQL_User'] = 'MYSQL_USER' ;
+
+// MySQL Password
+$Config['MySQL_Password'] = 'MYSQL_PASSWORD' ;
+
+// MySQL Database
+$Config['MySQL_Database'] = 'MYSQL_DB' ;
+
+
+/* Asterisk Manager Configuration */
+// Manager host
+$Config['Manager_Host'] = 'MANAGER_HOST' ;
+
+//Port du manager
+$Config['Manager_Port'] = 'MANAGER_PORT' ;
+
+//Utilisateur
+$Config['Manager_User'] = 'MANAGER_USER' ;
+
+//Mot de passe
+$Config['Manager_Secret'] = 'MANAGER_SECRET' ;
+
+// Asterisk Context for calls
+$Config['Call_context'] = 'CONTEXT_CALL' ;
+
+
+/* Roots configuration */
+//Sounds root 
+$Root['soundsroot'] = 'PREFIX/sounds/' ;
+
+// Executables roots
+$Root['scriptsroot'] = 'PREFIX/ext/' ;
+
+
+/* Call Delivery Configuration */
+// Alert Sort entry for call delivery
+$Config['Delivery_sort'] = 'create_time' ;
+
+// Delivery type
+$Config['Delivery_strategy'] = 'DELIVERY_STRATEGY' ; // per_alert ; per_owner
+
+// Lock file 
+$Config['Lockfile'] = "/tmp/Huberted.lock" ;
+
+// Delay before escalation (seconds)
+$Config['Escalation_delay'] = 'ESCALATION_DELAY' ;
+
+// End of Not Openned time
+$Config['HNO_end'] = 'HNO_END';
+
+// Start of Not Openned time
+$Config['HNO_start'] = 'HNO_START' ;
+
+// Xymon/Hobbit IP
+$Config['Xymon_IP'] = 'XYMON_IP';
+
+// Xymon Prefix
+$Config['Xymon_Prefix'] = 'XYMON_PATH';
+
+// Logs Enable/Disable
+define('DEBUG','TRUE') ;
+
+?>

@@ -1,0 +1,271 @@
+/* GENERAL */
+body {
+	background-color: #EEEEEE;
+	height: 100%;
+	margin: 5px;
+	font-size: 12px;
+	font-family: Arial, Tahoma
+}
+
+h2 {
+	text-align: center;
+	padding-left: 5px;
+	color: #008000;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline ;
+	margin-top: 5px ;
+	margin-bottom: 10px ;
+	color: #000000;
+}
+
+a {
+	color: #000000;
+	font-size:10px ;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* DIV */
+
+#header {
+	height: 100px;
+	padding: 10px ;
+	text-align: center;
+	border-bottom: 1px solid #000000 ;
+}
+
+#left {
+	width: 150px;
+	height: 100% ;
+	float:left;
+
+}
+
+#menu {
+	width:100% ;
+	margin:5px ;
+}
+
+#menu td {
+	background-color: #D0DCE0;
+	border-collapse: collapse ;
+	border: 1px dashed #B4BBB1;
+	padding: 5px;
+	text-align: center ;
+}
+
+#menu td:hover {
+	background-color: #B3BCFF;
+}
+
+#content {
+	vertical-align: top;
+/*	height: 100%;*/
+	margin-top: 10px;
+	margin-left: 165px;
+	margin-right: 5px;
+	margin-bottom: 20px ;
+	padding: 10px ;
+}
+
+#footer {
+	float: none;
+	background-color:#D0DDCA;
+	text-align: center;
+	margin-top: 100px;
+	padding: 5px;
+	border: 1px dashed #BEC8CB;
+}
+
+
+/* LOGIN MANAGEMENT */
+
+#login-logo img {
+	text-align: center;
+	margin: auto;
+}
+
+#login-form {
+	background-color: #D0DCE0;
+	margin: 80px auto;
+	width: 300px ;
+	text-align: center ;
+	border: 1px dashed #B4BBB1 ; 
+	font-family: Arial, Tahoma;
+	font-size: 12px;
+}
+
+#login-form .inputtext {
+	border: 1px solid #000000;
+	margin-top: 5px ;
+}
+
+#login-form .inputsubmit {
+	border: 1px solid #000000 ;
+	margin: 5px ;
+	font-weight: bold;
+	
+}
+
+/* USERS MANAGEMENT */
+#userslist {
+	font-size: 9px ;
+	text-align: center;
+}
+
+#userslist table {
+	margin: auto;
+}
+
+#userslist .inputtext, #userslist option {
+	border: 1px solid #B5C9CC;
+	background-color:#E1E7E8;
+        font-size: 9px ;
+        text-align:center ;
+        font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+
+#userslist .inputtext:focus, #userslist option:focus {
+        border: 1px solid #000000;
+        background-color:#ffffff;
+        text-align:center
+}
+
+#userprofile  {
+	margin:auto ;
+	width: 440px;
+}
+
+#userprofile td {
+	padding: 5px ;
+}
+
+#userprofile .userlegend {
+	background-color: #D0DCE0;	
+}
+	
+#userprofile .uservalue {
+	background-color: #E1E7E8;
+	text-align: center;
+}
+
+#userprofile .description {
+	font-size:10px;
+}
+
+#userprofile .inputtext {
+	border: 1px solid #B5C9CC;	
+        background-color:#E1E7E8;
+        font-size: 12px ;
+        text-align:center ;
+        font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+
+#userprofile .inputtext:focus {
+	border: 1px solid #000000;
+        background-color:#ffffff;
+        text-align:center
+}
+
+.userslegend {
+        background-color: #D0DCE0;
+        border-collapse: collapse ;
+        border: 1px dashed #B4BBB1;
+        padding: 5px;
+        font-size: 10px;
+        text-align: center ;
+}
+
+.userslegend2 {
+        background-color: #89C0B8;
+}
+
+.userscontent {
+        background-color: #E1E7E8;
+}
+
+.userscontent td {
+        padding: 2px;
+}
+
+/* HNO Management */
+#hnolist {
+/*        margin: auto; */
+        font-size: 9px ;
+        text-align: center;
+	width: 210px;
+	margin:auto ;
+}
+
+#hnolist .inputtext {
+	border: 1px solid #B5C9CC;
+	background-color:#E1E7E8;
+        font-size: 12px ;
+        text-align:center ;
+        font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+
+#hnolist .inputtext:focus {
+	border: 1px solid #000000;
+        background-color:#ffffff;
+        text-align:center
+}
+
+.hnolegend {
+        background-color: #D0DCE0;
+        border-collapse: collapse ;
+        border: 1px dashed #B4BBB1;
+        font-size: 10px;
+        text-align: center ;
+}
+
+.hnocontent {
+        background-color: #E1E7E8;
+}
+.hnocontent td {
+        padding: 3px;
+}
+
+/* CALL QUEUE/LOGS MANAGEMENT */
+#callslist {
+        font-size: 11px ;
+        text-align: center;
+}
+
+#callslist table {
+        margin: auto;
+}
+#callslist .inputtext {
+	border: 0px ;
+        background-color:#E1E7E8;
+        font-size: 12px ;
+        text-align:center ;
+        font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+
+.callslegend {
+        background-color: #D0DCE0;
+        border-collapse: collapse ;
+        border: 1px dashed #B4BBB1;
+        padding: 5px;
+        font-size: 10px;
+        text-align: center ;
+}
+.callscontent {
+        background-color: #E1E7E8;
+}
+
+.callscontent td {
+        padding: 3px;
+}
+
