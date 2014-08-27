@@ -1,7 +1,7 @@
 #!/bin/sh
 # install.local.sh
 #
-# Copyright 2009 Quentin Hess
+# Copyright 2014 Quentin Hess
 #
 #    This file is part of Hub'erte.
 #
@@ -94,7 +94,7 @@ if [ "$oneserver" == "N" ] || [ "$oneserver" == "n" ] || [ "$oneserver" == "no" 
 	echo "#!/bin/sh
 	# install.hobbit.sh
 	#
-	# Copyright 2009 Quentin Hess
+	# Copyright 2014 Quentin Hess
 	#
 	#    This file is part of Hub'erte.
 	#

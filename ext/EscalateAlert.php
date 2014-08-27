@@ -2,7 +2,7 @@
 <?php
 # EscalateAlert.php
 #
-# Copyright 2009 Quentin Hess
+# Copyright 2014 Quentin Hess
 #
 #    This file is part of Hub'erte.
 #

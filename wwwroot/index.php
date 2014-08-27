@@ -1,7 +1,7 @@
 <?php
 # index.php
 #
-# Copyright 2009 Quentin Hess
+# Copyright 2014 Quentin Hess
 #
 #    This file is part of Hub'erte.
 #
@@ -112,7 +112,7 @@ include_once('html_header.php');
 </div>
 
 <div id="footer">
-Hub'erte - Copyright 2009 - <a href="http://www.my-linux.fr">http://www.my-linux.fr</a>
+Hub'erte - Copyright 2014 - <a href="http://www.my-linux.fr">http://www.my-linux.fr</a>
 </div>
 <?php
 include_once('html_footer.php');
